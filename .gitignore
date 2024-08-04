@@ -1,0 +1,44 @@
+# Системные файлы
+.DS_Store
+Thumbs.db
+
+# Файлы настройки среды разработки
+.vscode/
+.idea/
+
+# Логи и временные файлы
+*.log
+*.tmp
+*.swp
+
+# Компилированные Python файлы
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Виртуальные окружения
+venv/
+env/
+ENV/
+.venv/
+.ENV/
+
+# Файлы конфигурации
+*.ini
+*.cfg
+
+# Результаты тестов
+*.coverage
+coverage/
+.coverage
+
+# Файлы баз данных
+*.sqlite3
+
+# Секреты и конфиденциальные данные
+*.pem
+*.key
+*.crt
+
+# Docker файлы
+docker-compose.override.yml
